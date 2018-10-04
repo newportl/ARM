@@ -79,7 +79,7 @@ configuration StandAlone
             InstanceName          = $SQLInstanceName
             Features              = $SQLFeatures
             SQLCollation          = 'SQL_Latin1_General_CP1_CI_AS'
-            SQLSysAdminAccounts   = 'TAMZ\DBA'
+            SQLSysAdminAccounts   = 'CONTOSO\DBA'
             InstallSharedDir      = 'C:\Program Files\Microsoft SQL Server'
             InstallSharedWOWDir   = 'C:\Program Files (x86)\Microsoft SQL Server'
             InstanceDir           = "${datadriveletter}:\Program Files\Microsoft SQL Server"
